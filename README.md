@@ -19,6 +19,7 @@ Gait Recognition based on GaitGraph wth ST-GCN structure
   uncomment this
   ![image](https://github.com/user-attachments/assets/077d5479-4a41-4c5d-a76e-e9520a70ddba)
   and uncomment this
+  
   Bạn cũng có thể thay đổi đường dẫn lưu train_embedding và test_embedding tùy ý. Sau đó khi load lại file csv bạn chỉ cần đưa đường dẫn đã lưu 2 file đó là được.
   ![image](https://github.com/user-attachments/assets/e231f1c0-f5c1-438c-9722-15e385b4ad60)
   
