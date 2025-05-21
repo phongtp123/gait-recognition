@@ -40,8 +40,11 @@ Gait Recognition based on GaitGraph wth ST-GCN structure
   Tiếp đến chạy đoạn lệnh sau để nhận diện xương người
   ![image](https://github.com/user-attachments/assets/38bdc75b-9d6d-4fdb-be10-cc3d12ec0a58)
 Nó gồm 4 arguments: argument đầu tiên là đường dẫn đến file prepare_pose_estimation.py (bạn có thể tìm thấy file này bên trong thư mục HRNet), argument thứ hai là đường dẫn đến thư mục chứa toàn bộ dữ liệu mới thêm vào (ví dụ thư mục dữ liệu mới thêm vào đặt tên là 125 bên trong có toàn bộ các frame được phân bố trong từng folder con tương ứng), argument 3 là đường dẫn đến file detectors mới thực hiện và argument 4 là đường dẫn lưu file pose estimation (HR Net Pose Estimation).
+
 * Bước 4:
+  
   ![image](https://github.com/user-attachments/assets/50d1a862-970d-4431-90a8-97e1108add3c)
+  
   Đổi đường dẫn đến file estimation vừa mới tạo và đường dẫn lưu file csv mới.
   Tiếp theo, ta ghép file csv dữ liệu train và dữ liệu pose-estimation mới lại với nhau, tương tự là dữ liệu test và dữ liệu pose-estimation mới. Đổi đường dẫn và tiến hành train lại với dữ liệu mới. Khi đánh giá mô hình mới, có thể đánh giá trên nguyên tập dữ liệu test hoặc là lấy riêng dữ liệu pose-estimation mới để test xem mô hình có nhận dạng được mẫu mới không.
 
